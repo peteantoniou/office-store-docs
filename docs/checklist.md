@@ -6,7 +6,7 @@ localization_priority: Normal
 
 # Am I ready to publish?
 
-Before submitting your Microsoft 365 app for review, make sure it’s ready to be released to customers and that you’re making the most of your app description page that customers will see when they download your app.
+Before submitting your Microsoft 365 app for review, make sure it’s ready to be released to customers and that you’re making the most of your app description page that customers will see when they download your app. ***we need to submit this asap as we are working on 4 week approval***
 
 ## Submission checklist
 
@@ -14,7 +14,7 @@ This is a checklist to help you ensure your submission and review go smoothly.
 
 ### ✅ Step 1: Determine your launch timeline
 
-![Calendar icon](./images/new/calendar.png) Plan ahead! Submitting your app for review can take up to 4 weeks from first submission until final approval.
+![Calendar icon](./images/new/calendar.png) Plan ahead! Submitting your app for review can take up to 4 weeks from first submission until final approval. ***aim to have submission in by 10th May 2021 with TARGET LAUNCH DATE 1st July 2021***
 
 Make sure include time in your deployment schedule for our team to not only review your app, but for changes to be made to your app if needed.
 
@@ -30,13 +30,49 @@ Make sure you read through our [Microsoft 365 app general policies here](/legal/
 - [Power BI visuals and template apps](/legal/marketplace/certification-policies#1180-power-bi-visuals)
 - [SharePoint Add-ins](/legal/marketplace/certification-policies#1160-sharepoint) or [SharePoint Framework (SPFx)](/legal/marketplace/certification-policies#1170-sharepoint-framework-solutions)
 
+_***all Office add-ins must use the latest version of the Microsoft-hosted Office.js file at https://appsforoffice.microsoft.com/lib/1/hosted/office.js.
+
+***all Office add-ins must use the latest manifest schema.
+
+***you must specify a valid Support URL in the SupportURL element of your add-in manifest.
+
+***to help ensure an efficient validation process, if your add-in supports Single Sign-On, you must provide certification test notes explaining how your add-in uses SSO and what functionality in the add-in uses it. This information is required to ensure the validation team can test the fallback implementation.
+
+***add-ins must be compatible with all versions of Internet Explorer 11 and later, and the latest versions of Microsoft Edge, Google Chrome, Mozilla Firefox, and Apple Safari (macOS).
+
+***all Outlook add-ins must support Outlook on the Web (Modern).
+
+***outlook on the Web (Classic) is preferred but optional for requirement sets of 1.5 or lower.
+
+***teams***
+
+***Apps may not launch functionality outside of the Microsoft Teams app experience without the explicit permission of the user.
+***Apps must be fully functional on the following operating systems and browsers:
+***Microsoft Windows 7 and later
+***macOS 10.10 and later
+***Microsoft Edge 12 and later
+***Mozilla Firefox 47.0 and later
+***Google Chrome 51.0 and later
+***iOS 9.0 and later
+***Android 4.4 and later
+***Bot experiences must be fully functional on the following mobile systems:
+***iOS 9.0 and later
+***Android 4.4 and later
+***Teams apps must complete Publisher Attestation in Partner Center.
+
+
+_
 ### ✅ Step 3: Check that your manifest is compliant
 
 There are several tools you can use to self-test your manifest file. These tools use the same package validation service we use in our review process. This will help ensure you pass our automated testing before you submit.
 
+***What is our position on testing???
+
 - [Find the best tool for self-testing your manifest](/office/dev/add-ins/testing/troubleshoot-manifest#:~:text=%20To%20use%20a%20command-line%20XML%20schema%20validation,and%20replace%20XML_FILE%20with%20the%20path...%20More%20)
 
 ### ✅ Step 4: Decide what platforms you will support
+
+***Confirming that we wont be supporting IOS or Android initially???
 
 If you are supporting Apple iOS or Android, make sure you have your correct ID information associated with your Partner Center Profile.
 
@@ -48,6 +84,8 @@ Note that Outlook is the only Microsoft 365 product that supports Android. Learn
 
 Make sure you have any third party service information ready to include in your submission. In the submission process, you’ll first need to check the additional purchases box, as shown in the following image.
 
+***Dont think this applies??
+
 ![Additional purchases step with unchecked box indicating a service must be purchased or in-app purchases are offered](./images/new/additional-purchases.png)
 
 Next, you’ll need to provide license keys, sample accounts, test credentials and any other critical instructions to our review team so that the process for getting the in-app purchase can be tested by our review team. This information should go in the Notes for certification box, as shown in the following picture.
@@ -55,6 +93,8 @@ Next, you’ll need to provide license keys, sample accounts, test credentials a
 Your test plans and any testing accounts and instructions need to be included here
 
 ### ✅ Step 6: Include critical information links with https:// URLs
+
+***The addresses for a support URL, a privacy policy URL, and an end user license agreement (EULA) URL are required. One of the top reasons an app submission fails our validation process is when these links are not included in submission. The following image shows the box that asks for the support information.
 
 The addresses for a support URL, a privacy policy URL, and an end user license agreement (EULA) URL  are required. One of the top reasons an app submission fails our validation process is when these links are not included in submission. The following image shows the box that asks for the support information.
 
@@ -85,9 +125,13 @@ If your privacy policy is missing any of the above, it will fail validation and 
 
 #### Include an End User License Agreement
 
+***We will use the suggested microsoft agreement (see link below)
+
 Make sure you have an https:// URL for your EULA policy ready when you submit. If you don’t already have one and you have consulted with your legal council, you can use [this one from Microsoft](https://support.office.com/client/61994a3b-2c87-41c4-a88d-a6455efa362d). 
 
 ### ✅ Step 7: Prepare your store listing with your team
+
+***We need to decide on a look and feel that can be used across multiple apps ie outlook, teams, excel etc. We need to produce for touchSMS and Edgility. We need to look at the guidelines below and decide on an action and task allocation plan
 
 Your final step in preparing your submission is to fill out a marketplace listing that will appear in the store to customers. This listing includes the copy in your listing, your branding, your app name and any screenshots and videos you want to use to promote it.
 
